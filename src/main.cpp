@@ -12,6 +12,7 @@ int main(int argc, char* argv[])
         const bool no_gpu_available = argc >= 2 && strcmp(argv[1], "-nogpu") == 0; // NOLINT(cppcoreguidelines-pro-bounds-pointer-arithmetic)
         if (no_gpu_available)
             return EXIT_SUCCESS;
+        
     }
 
     // Actual app
